@@ -1,0 +1,52 @@
+{
+    // types : [img, vid, doc, aud]
+    // subtypes : [vectors, renders, photos, movies, blog, project]
+
+    "highlights":[
+        {
+            "name" : "monolitha",
+            "info" : "loren-ipsum color motr data signet lato gator fujak toy",
+            "date" : "23-06-2023",
+            "img"  : "img-ftp-path",
+            "link" : "",
+            "type" : "images",
+            "subtype" : "vector"
+        },
+        {
+            "name" : "aprajita",
+            "info" : "loren-ipsum color motr data signet lato gator fujak toy",
+            "date" : "26-08-2024",
+            "img"  : "img-path-in-repo",
+            "link" : "post-link",  
+            "type" : "video",
+            "subtype" : "vector"
+        },
+        {
+            "name" : "coendoms",
+            "info" : "loren-ipsum color motr data signet lato gator fujak toy",
+            "date" : "19-02-2020",
+            "img"  : "img-ftp-path",
+            "link" : "post-link",  
+            "type" : "doc",
+            "subtype" : "project"
+        },
+        {
+            "name" : "3 lessons",
+            "info" : "loren-ipsum color motr data signet lato gator fujak toy",
+            "date" : "03-03-2019",
+            "img"  : "img-ftp-path",
+            "link" : "post-link",  
+            "type" : "images",
+            "subtype" : "photos"
+        },
+        {
+            "name" : "bicycle theives",
+            "info" : "loren-ipsum color motr data signet lato gator fujak toy",
+            "date" : "11-12-2019",
+            "img"  : "img-ftp-path",
+            "link" : "post-link",  
+            "type" : "doc",
+            "subtype" : "project"
+        }
+    ]
+}

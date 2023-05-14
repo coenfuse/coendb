@@ -1,0 +1,44 @@
+{
+    // contains all info about this blog content item
+    "content" : {
+        "title" : "",
+        "subtitle": "",
+        "preface" : "",         // usually 200 word context builder given alongide title image ON blog post
+        "summary" : "",         // concise summary 50-75 word that is used in highlights or gallery
+        "epilogue": "",         // optional post finisher or conclusion giver
+        "data" : "path",        // actual path to the raw .md file that contains blog contents
+        "tags" : [],            // related metadata / tags to this post (used more for SEO)
+        "category" : ""         // post category
+    },
+
+    // contains links for all the multimedia attached to this post
+    "data" : {
+        "images" : {
+            "cover" : "path",           // this image is going to shown in gallery, icons or portfolio
+            "title" : "path",           // this image is going to be shown as the forefront title photo at start of document
+            "gallery" : []              // this will contain list of selected images that are chosen to be displayed in a carousal in highlights or portfolio
+        },
+        
+        "audio" : {
+            "readout": "path"           // path to audio file that contains this blog in audio format
+        }
+    },
+
+    // contains all the information about the author of the post
+    "author" : {
+        "name" : "Sarthak Sharma",
+        "about" : "any kind word within 120 words",
+        "social" : "www.twitter.com/coenfuse"
+    },
+
+    // contains all the metadata for the post
+    "metadata" : {
+        "create-date" : "DD-MM-YYYY",
+        "create_time" : "HH:MM UTC",
+        "update-date" : "DD-MM-YYYY",
+        "update-time" : "HH:MM UTC",
+
+        "word-count" : 14530,
+        "readtime_s" : 2760     // 46 minutes 
+    }
+}

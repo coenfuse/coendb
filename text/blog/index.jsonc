@@ -1,0 +1,24 @@
+// This blogs index contains a unique set of all the blogs listed on the website
+// This is a set and not a list to avoid duplication of blogs.
+// Each blog item is given a unique index number in the format:
+// <chronological_number>_<ddmmyy>_<hhmmss> where time is UTC based
+
+{
+    "1_260323_171543" : {
+        "id" : "",              // any 10 digit alphanumeric that unique amongst all blogs
+        "title" : "",           // title of the blog
+        "summary" : "",         // 50-60 word summary for this post
+        "category" : "",        // this blog category
+        
+        "metadata" : {
+            "author" : "",          
+            "readtime_s" : "",
+            "last_update" : ""     // last update > create time
+        },
+        
+        "data" : {
+            "cover_image" : "",     // used for normal rendering
+            "gallery_images" : []   // will only be fetched during hover
+        }
+    }   
+}
