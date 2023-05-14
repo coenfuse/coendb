@@ -29,7 +29,7 @@ After fleshing the broad types of contents listed above, we get the following ro
 
 Now that we have rough list of content types. We can now find hierarchy of digital formats and establish relation between them. This gives us the following structure ;
 #
-![content hierarchy](../assets/content_hierarchy.svg)
+![content hierarchy](../assets/data_hierarchy.svg)
 
 
 ## 2. Removing redundancy in data types
